@@ -1,0 +1,26 @@
+body{
+    font-family:verdana;
+    background-color: hsla(130, 46%, 75%, 0.227);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#myB{
+    font-size:3em;
+    padding:5px 25px;
+    cursor:pointer;
+    border:none;
+    max-width: 325px;
+    box-shadow: 5px 10px 15px rgba(239, 234, 234, 0.137);
+    border-radius:10px;
+    color:white;
+    background-color:hsla(206, 81%, 52%, 0.979);
+#myB:hover{
+    background-color:hsl(177, 85%, 50%);
+}
+}
+#myB:active{
+    background-color: hsl(178, 95%, 52%)
+}
