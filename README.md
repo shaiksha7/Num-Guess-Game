@@ -16,7 +16,7 @@ while(running){
     guess=window.prompt(`Guess a number between ${minNum}-${maxNum}`);
    guess=Number(guess);
     
-    if(isNaN(guess)){l
+    if(isNaN(guess)){
         window.alert(`please enter a valid Number`)
     }
         else if(guess < 0 || guess >100){
