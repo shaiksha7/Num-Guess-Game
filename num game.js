@@ -14,7 +14,6 @@ myB.onclick = function () {
         guess = Number(guess);
 
         if (isNaN(guess)) {
-            l
             window.alert(`please enter a valid Number`)
         }
         else if (guess < 0 || guess > 100) {
